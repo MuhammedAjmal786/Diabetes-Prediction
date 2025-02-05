@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes</title>
+    
+    <style>
+        body{background-color: #2b2b2b;}
+        label{color: aliceblue;}
+        p {color: aliceblue;}
+    </style>
+
+</head>
+<body>
+    <dev style="text-align: center">
+        <h1 style="color: rgb(247, 247, 247);font-size: 50px;">Diabetes Prediction</h1>
+        
+        <form action="{{url_for('predict')}}"method='post'>
+            <input type="number" name="Pregnancies" placeholder="Pregnancies"required>
+            <br>
+            <br><input type="number" name="Glucose" placeholder="Glucose"required>
+            <br>
+            <br><input type="number" name="BloodPressure" placeholder="BloodPressure"required>
+            <br>
+            <br><input type="number" name="SkinThickness" placeholder="SkinThickness"required>
+            <br>
+            <br><input type="number" name="Insulin" placeholder="Insulin"required>
+            <br>
+            <br><input type="number" name="BMI" placeholder="BMI"required>
+            <br>
+            <br><input type="number" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction"required>
+            <br>
+            <br><input type="number" name="Age" placeholder="Age"required>
+            <br>
+
+            <br><button type="submit">Submit</button>
+        </form>
+        <p>{{Prediction_text}}</p>
+    </dev>
+</body>
+</html>
