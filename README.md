@@ -43,17 +43,17 @@ This repository contains multiple implementations and analyses related to Diabet
    - **Streamlit App**:
      ```bash
      cd streamlit_app
-     streamlit run app.py
+     streamlit run dstrm.py
      ```
    - **Gradio App**:
      ```bash
      cd gradio_app
-     python app.py
+     python Gradi.ipynb
      ```
    - **Flask App**:
      ```bash
      cd flask_app
-     python app.py
+     python dflsk.py
      ```
 
 ## 🤝 Contributing
