@@ -9,7 +9,8 @@ This repository contains multiple implementations and analyses related to Diabet
 
 ## 📌 Features
 - Perform EDA to understand the dataset and key patterns.
-- Use machine learning models to predict diabetes risk.
+- Use machine learning models to predict diabetes.
+- Save model using Pickle.
 - Deploy interactive web applications using Streamlit, Gradio, and Flask.
 
 ## 📂 Project Structure
