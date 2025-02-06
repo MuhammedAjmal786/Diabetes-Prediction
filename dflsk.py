@@ -22,8 +22,8 @@ def predict():
 
     input_data={
         'Pregnancies':Pregnancies,
-        'Glucose':Pregnancies,
-        'BloodPressure':Pregnancies,
+        'Glucose':Glucose,
+        'BloodPressure':BloodPressure,
         'SkinThickness':SkinThickness,
         'Insulin':Insulin,
         'BMI':BMI,
