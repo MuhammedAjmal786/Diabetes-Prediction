@@ -59,6 +59,10 @@ This repository contains multiple implementations and analyses related to Diabet
 ## 🤝 Contributing
 Contributions are welcome! Feel free to submit issues or pull requests.
 
+
+## Take a peek at what I’ve created! 👀
+Streamlit App: https://diabetes-prediction-grqwanm9khbkmdegsfzhdq.streamlit.app/
+
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
