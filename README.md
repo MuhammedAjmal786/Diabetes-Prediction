@@ -35,6 +35,7 @@ This repository contains multiple implementations and analyses related to Diabet
 
 2. Install dependencies:
    ```bash
+   pip install pickle
    pip install -r requirements.txt
    ```
 
@@ -66,3 +67,4 @@ Streamlit App: https://diabetes-prediction-grqwanm9khbkmdegsfzhdq.streamlit.app/
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## **THANK YOU**
