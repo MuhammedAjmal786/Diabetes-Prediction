@@ -24,6 +24,8 @@ This repository contains multiple implementations and analyses related to Diabet
 ├──  diabetes        # Dataset
 templates//;
 ├── 📂 dhml         # html
+static//;
+├── 📂 style         # CSS
 
 ├── 📜 requirements.txt  # Dependencies
 ├── 📜 LICENSE           # License file
