@@ -16,10 +16,15 @@ This repository contains multiple implementations and analyses related to Diabet
 ## 📂 Project Structure
 ```
 📦 Diabetes-Prediction
-├── 📂 eda                # Exploratory Data Analysis (EDA) scripts
-├── 📂 streamlit_app      # Streamlit-based Diabetes Prediction app
-├── 📂 gradio_app        # Gradio-based Diabetes Prediction app
-├── 📂 flask_app         # Flask-based Diabetes Prediction app
+├── 📂 EDA(Diabetes)                # Exploratory Data Analysis (EDA) scripts
+├── 📂 dstm      # Streamlit-based Diabetes Prediction app
+├── 📂 Gradi        # Gradio-based Diabetes Prediction app
+├── 📂 dflsk         # Flask-based Diabetes Prediction app
+├──  model         # Saved model using pickle
+├──  diabetes        # Dataset
+templates//;
+├── 📂 dhml         # html
+
 ├── 📜 requirements.txt  # Dependencies
 ├── 📜 LICENSE           # License file
 ├── 📜 README.md         # Project Documentation
