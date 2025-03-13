@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #680163, #00326b); /* Gradient background */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Shared container styles */
+.container {
+    background-color: #363636;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #0000001a;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2, h3 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    visibility: visible; /* Ensure headings are visible */
+}
+h4 {
+    color: #0ae766;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    visibility: visible; /* Ensure headings are visible */
+}
+
+label {
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    display: block; /* Ensure labels are on a new line */
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000000;
+    transition: border-color 0.3s ease;
+    border-color: rgb(231, 5, 5); /* Red border */
+}
+
+input[type="number"]:focus,
+select:focus {
+    outline: none;
+    border-color: #74ebd5; /* Highlight on focus */
+}
+
+/* Button styling */
+button {
+    background-color: #b306a4;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width button */
+}
+
+button:hover {
+    background-color: #1809f5; /* Darker shade on hover */
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    .container{
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+}
