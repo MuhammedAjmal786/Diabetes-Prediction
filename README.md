@@ -47,20 +47,20 @@ static//;
    ```
 
 3. Run the applications:
-   - **EDA**: Run Jupyter notebooks inside the `eda` folder.
+   - **EDA**: Run Jupyter notebooks inside the `EDA(Diabetes)` folder.
    - **Streamlit App**:
      ```bash
-     cd streamlit_app
+     cd dstrm
      streamlit run dstrm.py
      ```
    - **Gradio App**:
      ```bash
-     cd gradio_app
+     cd Gradi
      python Gradi.ipynb
      ```
    - **Flask App**:
      ```bash
-     cd flask_app
+     cd dflsk
      python dflsk.py
      ```
 
