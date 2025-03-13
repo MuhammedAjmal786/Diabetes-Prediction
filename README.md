@@ -53,11 +53,7 @@ static//;
      cd dstrm
      streamlit run dstrm.py
      ```
-   - **Gradio App**:
-     ```bash
-     cd Gradi
-     python Gradi.ipynb
-     ```
+   - **Gradio App**: Run Jupyter notebooks inside the EDA(Diabetes) folder.
    - **Flask App**:
      ```bash
      cd dflsk
